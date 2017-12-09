@@ -20,7 +20,7 @@ $(document).ready(function() {
       theIntergers.push("pong");
     }else if (index %3===0) {
     }else {
-      theIntergers.push("index");  
+      theIntergers.push("index");
     }
 
     }

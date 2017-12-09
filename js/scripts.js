@@ -1,27 +1,31 @@
-// business logic
-  var leapYear = function(year) {
-    if ((year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0)) {
-      return true;
-    } else {
-      return false;
-    }
-  };
 
-  // user interface logic
-  $(document).ready(function() {
-    $("form#leap-year").submit(function(event) {
-      event.preventDefault();
-      var year = parseInt($("input#year").val());
-      var result = leapYear(year);
 
-      $(".year").text(year);
+$(document).ready(function() {
+    $("button").click(function() {
+      var theAnswers = parseInt($("input#number").val());
+      (theAnswers);
+      theIntergers.forEach(function(theAnswer){
+      $("#result").append("<li>"+ theAnswer + "</li>");
+    });
 
-      if (!result) {                 // same as writing if (result === false)
-        $(".not").text("not");
-      } else {
-        $(".not").text("");
-      }
-
-      $("#result").show();
     });
   });
+
+  var theIntergers = []
+  function (theAnswer) {
+    for (var index = 1; index <=theAnswer; index++)
+    if (index %15===0){
+      theIntergers.push("ping pong");
+    }else if (index %5===0){
+      theIntergers.push("pong");
+    }else if (index %3===0) {
+    }else {
+      theIntergers.push("index");  
+    }
+
+    }
+
+
+
+
+    }

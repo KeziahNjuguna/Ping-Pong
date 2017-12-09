@@ -1,5 +1,14 @@
 
-#result {
-    display: none;
-  }
+#header {
+  text-align: center;
+  padding: 40px;
+  background-color: #939dad;
+}
+#ping{
+  font-size: 10;
+}
+#about{
   
+   background-color: #a5acb7;
+   padding-bottom: 60px;
+ }

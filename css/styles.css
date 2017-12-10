@@ -5,14 +5,19 @@
   background-color: #939dad;
 }
 #ping{
-  font-size: 10;
+  font-size: 4px;
 }
 #about{
+padding: 60px;
+background-color: #7085b5;
 
-   background-color: #a5acb7;
-   padding-bottom: 60px;
  }
  #rules {
-   background-color: #48ead2;
-   padding-bottom: 60px;
+   padding: 60px;
+   background-color:#9fc5ce;
+
+ }
+
+ #numberimage {
+   float: right;
  }

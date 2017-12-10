@@ -21,3 +21,9 @@ background-color: #7085b5;
  #numberimage {
    float: right;
  }
+ .pingpong{
+   background-image: url("../images/background .gif");
+ }
+#background {
+  float:left;
+}

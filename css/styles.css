@@ -5,17 +5,15 @@
   background-color: #939dad;
 }
 #ping{
-  font-size: 10px;
+  font-size: 20px;
 }
 #about{
-padding: 60px;
 background-color: #7085b5;
 
  }
  #rules {
    padding: 60px;
    background-color:#9fc5ce;
-
  }
 
  #numberimage {
@@ -26,5 +24,6 @@ background-color: #7085b5;
  }
 #background {
   float:left;
-
+padding:60px;
+margin: auto;
 }

@@ -24,7 +24,7 @@ $(document).ready(function() {
   });
 });
 
-function game(theAnswer) {
-            document.theIntergers.submit();
-            document.theIntergers.reset();
+function submitForm( theIntergers) {
+            document.contact-form.submit();
+            document.contact-form.reset();
             }

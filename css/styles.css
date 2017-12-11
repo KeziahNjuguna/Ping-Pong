@@ -3,6 +3,7 @@
   text-align: center;
   padding: 50px;
   background-color: #939dad;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 #ping{
   font-size: 20px;

@@ -1,7 +1,6 @@
 
 #header {
   text-align: center;
-  padding: 50px;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
   font-weight: 1000;
 }
@@ -29,10 +28,14 @@ padding: 50px;
 padding:60px;
 }
 #animated1{
-  text-align: center;
+  float: right;
   margin-top: auto;
 }
 #animated2{
-border: 4px 4px 4px 4px solid black;
-padding: 100px
+padding: 60px;
+border-left: 3px;
+}
+#border {
+border-top: 3px solid black;
+
 }

@@ -23,3 +23,8 @@ $(document).ready(function() {
 
   });
 });
+
+function game(theAnswer) {
+            document.theIntergers.submit();
+            document.theIntergers.reset();
+            }

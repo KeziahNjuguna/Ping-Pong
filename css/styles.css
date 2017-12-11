@@ -4,6 +4,7 @@
   padding: 50px;
   background-color: #939dad;
   text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-weight: 1000;
 }
 #ping{
   font-size: 20px;

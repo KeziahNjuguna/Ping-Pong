@@ -24,7 +24,6 @@ $(document).ready(function() {
   });
 });
 
-function submitForm( theIntergers) {
-            document.contact-form.submit();
-            document.contact-form.reset();
-            }
+$('#clear').click(function(event){
+    $("#list").empty();
+  })
